@@ -1,6 +1,6 @@
 # DineOps
 
-## Restaurant & Cloud Kitchen Operations ERP
+## Restaurant ERP
 
 DineOps is a production-style ERP system designed to manage restaurant
 and cloud kitchen operations.
