@@ -1,0 +1,26 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+
+# Environment / secrets
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Archives
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
