@@ -7,7 +7,10 @@ from app.core.config import settings
 
 
 engine = create_engine(
-    settings.database_url,
+    settings.database_url.replace(
+        "postgresql://",
+        "postgresql+psycopg://",
+    ),
     pool_pre_ping=True,
 )
 
